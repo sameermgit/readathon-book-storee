@@ -1,0 +1,159 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('./bk\ star\ 2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333; /* Set text color to a dark color for readability */
+  }
+  
+  /* Center align the header */
+  h1, h2 {
+    text-align: center;
+    color: #fff; /* Set text color to white for better visibility */
+  }
+  
+  /* Style the header */
+  h1 {
+    font-size: 36px;
+    margin-top: 20px; /* Add space from the top */
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-top: 10px; /* Add space from the top */
+  }
+  
+  /* Style the navigation link */
+  a {
+    color: #0078d4;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style the main content container */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Add a semi-transparent white background to make content readable */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  /* Style the ABOUT US section */
+  h3 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  p {
+    line-height: 1.6 ;
+    font-size: 20px; 
+  }
+  
+  /* Style the lists */
+  ul, ol {
+    margin-left: 20px;
+    
+  }
+  
+  /* Style the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Style the form */
+  form {
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  legend {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  /* Style input fields and buttons */
+  input[type="text"],
+  input[type="number"],
+  input[type="password"],
+  input[type="email"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #0078d4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .cl{
+    background-color: #dddddd9c;
+  }
+  /* Center align and style the list items */
+ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #0078d4;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  /* Add some spacing between list items */
+  li + li {
+    margin-left: 10px;
+  }
+  form {
+    margin: 20px auto;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for the form */
+    padding: 20px;
+  }
+  
+  
